@@ -1,0 +1,28 @@
+
+body { font-family: Arial, sans-serif; background: #faf5e9; color: #234532; }
+header { background: #234532; text-align: center; padding: 15px; }
+.logo { width: 110px; transition: transform 0.3s; }
+.logo:hover { transform: scale(1.15); }
+nav { max-width: 1000px; margin: auto; }
+nav a { color: white; padding: 10px; }
+nav a:hover { color: #f5d88e; }
+main { padding-top: 30px; padding-bottom: 30px; min-height: 65vh; }
+h1 { margin-bottom: 30px; }
+h2 { margin-top: 20px; margin-bottom: 15px; }
+a { color: #345d36;
+    text-decoration: none; }
+li { margin-bottom: 8px; }
+
+.saison { width: 100%; max-width: 280px; border-radius: 12px; margin-bottom: 20px; transition: transform 0.3s;}
+.recette { background: white; border: 1px solid #d5dbc9; border-radius: 10px; padding: 20px; margin: 20px 0; }
+.photo { width: 300px; height: 300px; object-fit: cover; border-radius: 8px; }
+.saison:hover { transform: scale(1.15); }
+.recette .photo { height: 200px; }
+.fleche { background: #234532; color: white; padding: 8px; border-radius: 5px; }
+footer { background: #234532; color: white; text-align: center; padding: 25px; }
+.avis { background-color: white; border: 1px solid #d5dbc9; border-radius: 10px; padding: 25px; margin-top: 30px;}
+.avis label { display: block; margin-bottom: 10px; font-weight: bold;}
+.avis textarea { width: 100%; padding: 12px; border: 1px solid #aaa; border-radius: 6px; font-family: inherit; font-size: 16px; resize: vertical;}
+.avis textarea:focus { outline: 2px solid #345d36; border-color: #345d36;}
+.avis button { background-color: #234532; color: white; border: none; border-radius: 6px; padding: 12px 20px; margin-top: 15px; cursor: pointer;}
+.avis button:hover { background-color: #3b704d;}
